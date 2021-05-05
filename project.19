@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    table,th,td{
+        border: 1px solid aquamarine;
+        border-collapse: collapse;
+    }
+    th,td{
+        padding: 10px;
+
+    }
+    th{
+        text-align: left;
+    }
+    table{
+        /* border-spacing: 15px; */
+    }
+    #t1 {
+        background-color: aqua;
+        color: black;
+    }
+    #t1 tr:nth-child(odd){
+        background-color: blueviolet;
+    }
+    #t1 tr:nth-child(even) {
+        background-color: chartreuse;
+    }
+    </style>
+
+</head>
+<body>
+  <table id="t1"> 
+       <caption>Worker list</caption>
+       <tr>
+           <th>Compony</th>
+           <th>Contact</th>
+           <th>Country</th>
+           <th>Photo</th>
+       </tr>
+       <tr>
+
+           <td>Alfreds Futterkiste</td>
+           <td>Francisco Chang</td>
+           <td>Maxico</td>
+           <td><img src="image/Без названия (1).jpg" alt=""></td>
+       </tr>
+       <tr>
+           <td>Centro comrcial Moctezuma</td>
+           <td>Maria Anders</td>
+           <td>Germany</td>
+           <td><img src="image/Без названия.jpg" alt=""></td>
+       </tr>
+       <tr>
+           <td>Ernst</td>
+           <td>Roland Mendel</td>
+           <td>Austria</td>
+           <td><img src="image/LaHTIctnR2bgOS45_pjBTUb5Czp2ctwWw_kF_ymi90QGABb6CVuiQptyvlBdHp2IK3zMVKeoE9rufOoDpcX_bB57.jpg" alt=""></td>
+       </tr>
+       <tr>
+           <td>Island Trading</td>
+           <td>Helen Bennett</td>
+           <td>UK</td>
+           <td><img src="image/LaHTIctnR2bgOS45_pjBTUb5Czp2ctwWw_kF_ymi90QGABb6CVuiQptyvlBdHp2IK3zMVKeoE9rufOoDpcX_bB57.jpg" alt=""></td>
+       </tr>
+       <tr>
+           <td>Laughing Bacchus Winecellars</td>
+           <td>Yoshi Tannamuri</td>
+           <td>Canada</td>
+           <td><img src="image/Без названия.jpg" alt=""></td>
+       </tr>
+       <tr>
+           <td>Magazzini Alimentary Riuniti</td>
+           <td>Giovanni Rovelli</td>
+           <td>Italy</td>
+           <td><img src="image/Без названия.jpg" alt=""></td>
+       </tr>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Will Smith</td>
+                <td>ded@mail</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
